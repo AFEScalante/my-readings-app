@@ -1,0 +1,8 @@
+.header {
+  display: flex;
+  font-size: 2rem;
+  padding: 1rem;
+  color: #e0e0e0;
+  font-family: "Roboto", sans-serif;
+  min-height: 10rem;
+}
