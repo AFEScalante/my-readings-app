@@ -25,16 +25,16 @@ function BookShelves() {
   const unselectedBooks = books.filter((book) => !book.selected);
 
   return (
-    <div className={styles.wrapper}>
+    <>
       <BookArray
         className={styles.grid}
-        books={unselectedBooks}
         handleSelectBook={toggleBook}
+        books={unselectedBooks}
       />
       {selectedBooks.length > 0 && (
         <ReadingList books={selectedBooks} handleRemoveBook={toggleBook} />
       )}
-    </div>
+    </>
   );
 }
 

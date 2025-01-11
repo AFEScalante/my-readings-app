@@ -1,7 +1,12 @@
 import styles from "./Header.module.css";
 
 function Header() {
-  return <header className={styles.header}>My Readings App</header>;
+  return (
+    <header>
+      <div className={styles.backdrop}>MyReadings</div>
+      <div className={styles.backdropEdge}></div>
+    </header>
+  );
 }
 
 export default Header;

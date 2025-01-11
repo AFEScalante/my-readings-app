@@ -8,20 +8,10 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-image: linear-gradient(
-    0deg,
-    hsl(60deg 56% 91%) 0%,
-    hsl(57deg 22% 87%) 8%,
-    hsl(43deg 6% 82%) 17%,
-    hsl(260deg 5% 77%) 25%,
-    hsl(248deg 12% 73%) 33%,
-    hsl(245deg 16% 68%) 42%,
-    hsl(243deg 19% 64%) 50%,
-    hsl(241deg 21% 59%) 58%,
-    hsl(239deg 23% 55%) 67%,
-    hsl(237deg 25% 50%) 75%,
-    hsl(234deg 32% 45%) 83%,
-    hsl(230deg 44% 40%) 92%,
-    hsl(224deg 64% 33%) 100%
+  background: rgb(92, 85, 255);
+  background: radial-gradient(
+    circle,
+    rgba(92, 85, 255, 1) 0%,
+    rgba(8, 16, 25, 1) 100%
   );
 }
